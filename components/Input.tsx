@@ -12,7 +12,7 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
 	label?: string
 }
 
-const useStyles = createUseStyles((theme: Theme) => ({
+const useStyles = createUseStyles((_theme: Theme) => ({
 	input: ({ type }: InputProps) => {
 		switch (type) {
 			case 'text':

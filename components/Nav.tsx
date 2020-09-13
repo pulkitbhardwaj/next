@@ -7,7 +7,7 @@ import { Theme } from '../theme'
 /**
  * Navigation Styles
  */
-const useStyles = createUseStyles((theme: Theme) => ({
+const useStyles = createUseStyles((_theme: Theme) => ({
 	nav: ({ width = '100%', direction = 'row' }: NavProps) => ({
 		display: 'flex',
 		flexDirection: direction,

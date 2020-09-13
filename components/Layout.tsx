@@ -9,7 +9,7 @@ type Props = {
 	title?: string
 }
 
-const useGlobalStyles = createUseStyles((theme: Theme) => ({
+const useGlobalStyles = createUseStyles((_theme: Theme) => ({
 	'@global': {
 		'*': {
 			margin: 0,

@@ -1,4 +1,4 @@
-import React, { FC, FormEventHandler, useState } from 'react'
+import React, { FC, FormEventHandler } from 'react'
 import { createUseStyles } from 'react-jss'
 import { useInput } from '../components/Input'
 import Layout from '../components/Layout'
